@@ -1,0 +1,45 @@
+{
+  "placeholder": true,
+  "phase": "before",
+  "title": "BEFORE the flood: Prepare",
+  "learningObjectives": [
+    "PLACEHOLDER: Name the basic items of a family go-bag.",
+    "PLACEHOLDER: Choose a safe evacuation route on higher ground."
+  ],
+  "intro": {
+    "situation": "A strong typhoon is expected tonight. You are at GoodWheel with your sibling.",
+    "goal": "Pack a go-bag with the 6 most important items, then ask the staff about the safe evacuation route."
+  },
+  "bagLimit": 6,
+  "items": [
+    { "id": "water", "name": "Drinking water", "correct": true, "feedback": "Clean water is the first thing to pack.", "source": "PLACEHOLDER: general flood-safety guidance. Client to supply the reference." },
+    { "id": "flashlight", "name": "Flashlight", "correct": true, "feedback": "A flashlight is safer than candles when the power goes out.", "source": "PLACEHOLDER: general flood-safety guidance. Client to supply the reference." },
+    { "id": "radio", "name": "Battery radio", "correct": true, "feedback": "A radio lets you hear official advisories without power.", "source": "PLACEHOLDER: general flood-safety guidance. Client to supply the reference." },
+    { "id": "firstaid", "name": "First-aid kit", "correct": true, "feedback": "Treat small injuries while help is far away.", "source": "PLACEHOLDER: general flood-safety guidance. Client to supply the reference." },
+    { "id": "documents", "name": "Documents in a waterproof bag", "correct": true, "feedback": "Keep IDs and papers dry in a sealed bag.", "source": "PLACEHOLDER: general flood-safety guidance. Client to supply the reference." },
+    { "id": "medicine", "name": "Medicine", "correct": true, "feedback": "Bring the medicines your family needs every day.", "source": "PLACEHOLDER: general flood-safety guidance. Client to supply the reference." },
+    { "id": "console", "name": "Game console", "correct": false, "feedback": "Not essential. Space in a go-bag is for survival items.", "source": "PLACEHOLDER: general flood-safety guidance. Client to supply the reference." },
+    { "id": "balloons", "name": "Party balloons", "correct": false, "feedback": "Fun, but not useful in an emergency.", "source": "PLACEHOLDER: general flood-safety guidance. Client to supply the reference." },
+    { "id": "candles", "name": "Scented candles", "correct": false, "feedback": "Candles are a fire risk. Pack a flashlight instead.", "source": "PLACEHOLDER: general flood-safety guidance. Client to supply the reference." }
+  ],
+  "questions": [
+    {
+      "id": "evac_route",
+      "objective": "PLACEHOLDER: Choose a safe evacuation route.",
+      "speaker": "staff",
+      "situation": "The barangay may order an evacuation tonight. Which way should your family go?",
+      "choices": [
+        { "text": "Along the riverbank. It is the shortest way.", "correct": false, "feedback": "Rivers overflow first. Stay away from riverbanks." },
+        { "text": "Up the road to the evacuation center on higher ground.", "correct": true, "feedback": "Correct! Go to higher ground, using the route your barangay gives." },
+        { "text": "Wait at home until the water reaches the door.", "correct": false, "feedback": "Leave early, when officials tell you to. Waiting makes it harder." }
+      ],
+      "source": "PLACEHOLDER: general flood-safety guidance. Client to supply the reference."
+    }
+  ],
+  "takeaways": [
+    "PLACEHOLDER: Pack a go-bag before the storm comes.",
+    "PLACEHOLDER: Water, light, radio, first aid, documents, medicine.",
+    "PLACEHOLDER: Know your route to higher ground."
+  ],
+  "scoring": { "mistakePenalty": 10, "stars": { "3": 0, "2": 2 } }
+}

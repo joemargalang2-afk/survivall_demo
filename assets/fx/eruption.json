@@ -1,0 +1,174 @@
+{
+ "frames": {
+  "eruption_0": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 252
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 252
+   },
+   "sourceSize": {
+    "w": 320,
+    "h": 252
+   }
+  },
+  "eruption_1": {
+   "frame": {
+    "x": 320,
+    "y": 0,
+    "w": 320,
+    "h": 252
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 252
+   },
+   "sourceSize": {
+    "w": 320,
+    "h": 252
+   }
+  },
+  "eruption_2": {
+   "frame": {
+    "x": 640,
+    "y": 0,
+    "w": 320,
+    "h": 252
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 252
+   },
+   "sourceSize": {
+    "w": 320,
+    "h": 252
+   }
+  },
+  "eruption_3": {
+   "frame": {
+    "x": 960,
+    "y": 0,
+    "w": 320,
+    "h": 252
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 252
+   },
+   "sourceSize": {
+    "w": 320,
+    "h": 252
+   }
+  },
+  "eruption_4": {
+   "frame": {
+    "x": 1280,
+    "y": 0,
+    "w": 320,
+    "h": 252
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 252
+   },
+   "sourceSize": {
+    "w": 320,
+    "h": 252
+   }
+  },
+  "eruption_5": {
+   "frame": {
+    "x": 1600,
+    "y": 0,
+    "w": 320,
+    "h": 252
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 252
+   },
+   "sourceSize": {
+    "w": 320,
+    "h": 252
+   }
+  },
+  "eruption_6": {
+   "frame": {
+    "x": 1920,
+    "y": 0,
+    "w": 320,
+    "h": 252
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 252
+   },
+   "sourceSize": {
+    "w": 320,
+    "h": 252
+   }
+  },
+  "eruption_7": {
+   "frame": {
+    "x": 2240,
+    "y": 0,
+    "w": 320,
+    "h": 252
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 252
+   },
+   "sourceSize": {
+    "w": 320,
+    "h": 252
+   }
+  }
+ },
+ "meta": {
+  "image": "eruption.png",
+  "size": {
+   "w": 2560,
+   "h": 252
+  },
+  "scale": "1",
+  "app": "tools/clean-layers.py",
+  "note": "cells aligned bottom-center"
+ }
+}

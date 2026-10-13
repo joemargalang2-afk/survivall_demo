@@ -1,0 +1,56 @@
+{
+  "placeholder": true,
+  "phase": "after",
+  "title": "AFTER the flood: Recover",
+  "learningObjectives": [
+    "PLACEHOLDER: Check for hazards before cleaning up.",
+    "PLACEHOLDER: Clean safely with boots and gloves, help neighbors, report damage."
+  ],
+  "intro": {
+    "situation": "Morning. The water has gone down around Jabili, but mud and debris are everywhere.",
+    "goal": "Check for hazards, put on boots and gloves, clean up, help your neighbor and report the damage."
+  },
+  "hazards": [
+    { "id": "dirty_water", "name": "Dirty flood water", "damage": 10, "feedback": "Flood water can carry germs that cause sickness, like leptospirosis. Avoid wading in it.", "source": "PLACEHOLDER: general flood-safety guidance. Client to supply the reference." },
+    { "id": "fallen_wire", "name": "Fallen power line", "damage": 25, "feedback": "Never touch fallen wires. Keep away and report them.", "source": "PLACEHOLDER: general flood-safety guidance. Client to supply the reference." }
+  ],
+  "tasks": [
+    { "id": "ppe", "name": "Boots and gloves", "prompt": "Put on boots and gloves", "feedback": "Boots and gloves protect you from germs and sharp debris.", "source": "PLACEHOLDER: general flood-safety guidance. Client to supply the reference." },
+    { "id": "mud", "name": "Clean the mud", "prompt": "Clean and disinfect", "needs": "ppe", "needsFeedback": "Put on boots and gloves first! The relief tent has some.", "feedback": "Clean, then disinfect anything the flood water touched.", "source": "PLACEHOLDER: general flood-safety guidance. Client to supply the reference." },
+    { "id": "trash", "name": "Bag the debris", "prompt": "Bag the debris", "needs": "ppe", "needsFeedback": "Put on boots and gloves first! The relief tent has some.", "feedback": "Bag debris so no one steps on sharp things.", "source": "PLACEHOLDER: general flood-safety guidance. Client to supply the reference." }
+  ],
+  "npcs": {
+    "neighbor": { "name": "Lola Nena", "ask": "Child, could you help me carry my things to the relief tent?", "thanks": "Salamat! Checking on neighbors, especially the elderly, matters." },
+    "official": { "name": "Barangay official", "needsDone": ["mud", "trash", "neighbor"], "early": "Clean up and help your neighbor first, then report to me." }
+  },
+  "questions": [
+    {
+      "id": "hazard_check",
+      "objective": "PLACEHOLDER: Look for hazards before you go back in.",
+      "speaker": "player",
+      "situation": "You see a fallen wire and a dirty puddle by the road. What do you do?",
+      "choices": [
+        { "text": "Walk through the puddle to save time.", "correct": false, "feedback": "Flood water may be dirty and hide sharp things. Go around." },
+        { "text": "Stay away from both and tell the barangay official.", "correct": true, "feedback": "Correct! Keep away from hazards and report them." }
+      ],
+      "source": "PLACEHOLDER: general flood-safety guidance. Client to supply the reference."
+    },
+    {
+      "id": "report",
+      "objective": "PLACEHOLDER: Report damage to the barangay.",
+      "speaker": "official",
+      "situation": "What should you report to the barangay?",
+      "choices": [
+        { "text": "Damage, hazards like fallen wires, and people who need help.", "correct": true, "feedback": "Correct! Reports help the barangay send help where it is needed." },
+        { "text": "Nothing. They will find out by themselves.", "correct": false, "feedback": "Your report helps them act faster. Always report damage and hazards." }
+      ],
+      "source": "PLACEHOLDER: general flood-safety guidance. Client to supply the reference."
+    }
+  ],
+  "takeaways": [
+    "PLACEHOLDER: Check for hazards before cleaning up.",
+    "PLACEHOLDER: Wear boots and gloves; avoid flood water.",
+    "PLACEHOLDER: Help neighbors and report damage to the barangay."
+  ],
+  "scoring": { "mistakePenalty": 10, "stars": { "3": 0, "2": 2 } }
+}

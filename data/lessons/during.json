@@ -1,0 +1,62 @@
+{
+  "placeholder": true,
+  "phase": "during",
+  "title": "DURING the flood: Stay safe",
+  "learningObjectives": [
+    "PLACEHOLDER: Move to higher ground during a flood.",
+    "PLACEHOLDER: Recognize flood hazards: moving water, hidden holes, fallen wires."
+  ],
+  "intro": {
+    "situation": "Night. The street outside McDonkey is flooding and the water keeps rising.",
+    "goal": "Lead your sibling to the safe second floor of McDonkey. Avoid hazards in the water."
+  },
+  "timeLimitSec": 150,
+  "risingDamagePerSec": 2,
+  "hazards": [
+    { "id": "manhole", "name": "Open manhole", "damage": 15, "feedback": "Flood water can hide open manholes and holes. Avoid walking where you can't see the ground.", "source": "PLACEHOLDER: general flood-safety guidance. Client to supply the reference." },
+    { "id": "wire", "name": "Live wire", "damage": 25, "feedback": "Stay far from fallen power lines. Water carries electricity.", "source": "PLACEHOLDER: general flood-safety guidance. Client to supply the reference." },
+    { "id": "current", "name": "Fast water", "damage": 10, "feedback": "Even shallow moving water can knock you down. Don't cross it.", "source": "PLACEHOLDER: general flood-safety guidance. Client to supply the reference." }
+  ],
+  "questions": [
+    {
+      "id": "start_choice",
+      "objective": "PLACEHOLDER: Act fast and go to higher ground.",
+      "speaker": "player",
+      "situation": "The water is rising fast. What do you do first?",
+      "choices": [
+        { "text": "Go to higher ground now, with my sibling.", "correct": true, "feedback": "Correct! Move to higher ground right away." },
+        { "text": "Go back for my toys first.", "correct": false, "feedback": "Things can be replaced. Get to safety first." },
+        { "text": "Swim around to see how deep it is.", "correct": false, "feedback": "Never play or swim in flood water." }
+      ],
+      "source": "PLACEHOLDER: general flood-safety guidance. Client to supply the reference."
+    },
+    {
+      "id": "wire_choice",
+      "objective": "PLACEHOLDER: Stay away from electrical hazards.",
+      "speaker": "player",
+      "situation": "A power line is down and sparking in the water ahead.",
+      "choices": [
+        { "text": "Jump over it quickly.", "correct": false, "feedback": "Don't go near it. Water can carry electricity to you." },
+        { "text": "Keep far away, and tell an adult or the authorities.", "correct": true, "feedback": "Correct! Keep your distance and report it." }
+      ],
+      "source": "PLACEHOLDER: general flood-safety guidance. Client to supply the reference."
+    },
+    {
+      "id": "elevator_choice",
+      "objective": "PLACEHOLDER: Use stairs, not elevators, during a flood.",
+      "speaker": "player",
+      "situation": "To reach the second floor: take the elevator or the stairs?",
+      "choices": [
+        { "text": "The elevator.", "correct": false, "feedback": "The power can fail in a flood and trap you. Use the stairs." },
+        { "text": "The stairs.", "correct": true, "feedback": "Correct! Stairs are safer when power may fail." }
+      ],
+      "source": "PLACEHOLDER: general flood-safety guidance. Client to supply the reference."
+    }
+  ],
+  "takeaways": [
+    "PLACEHOLDER: Go to higher ground right away.",
+    "PLACEHOLDER: Avoid flood water, moving water and fallen wires.",
+    "PLACEHOLDER: Use stairs, and stay with your family."
+  ],
+  "scoring": { "mistakePenalty": 10, "stars": { "3": 0, "2": 2 } }
+}

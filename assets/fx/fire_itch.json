@@ -1,0 +1,1214 @@
+{
+ "frames": {
+  "fire_itch_0": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_1": {
+   "frame": {
+    "x": 26,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_2": {
+   "frame": {
+    "x": 52,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_3": {
+   "frame": {
+    "x": 78,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_4": {
+   "frame": {
+    "x": 104,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_5": {
+   "frame": {
+    "x": 130,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_6": {
+   "frame": {
+    "x": 156,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_7": {
+   "frame": {
+    "x": 182,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_8": {
+   "frame": {
+    "x": 208,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_9": {
+   "frame": {
+    "x": 234,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_10": {
+   "frame": {
+    "x": 260,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_11": {
+   "frame": {
+    "x": 286,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_12": {
+   "frame": {
+    "x": 312,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_13": {
+   "frame": {
+    "x": 338,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_14": {
+   "frame": {
+    "x": 364,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_15": {
+   "frame": {
+    "x": 390,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_16": {
+   "frame": {
+    "x": 416,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_17": {
+   "frame": {
+    "x": 442,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_18": {
+   "frame": {
+    "x": 468,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_19": {
+   "frame": {
+    "x": 494,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_20": {
+   "frame": {
+    "x": 520,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_21": {
+   "frame": {
+    "x": 546,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_22": {
+   "frame": {
+    "x": 572,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_23": {
+   "frame": {
+    "x": 598,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_24": {
+   "frame": {
+    "x": 624,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_25": {
+   "frame": {
+    "x": 650,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_26": {
+   "frame": {
+    "x": 676,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_27": {
+   "frame": {
+    "x": 702,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_28": {
+   "frame": {
+    "x": 728,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_29": {
+   "frame": {
+    "x": 754,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_30": {
+   "frame": {
+    "x": 780,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_31": {
+   "frame": {
+    "x": 806,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_32": {
+   "frame": {
+    "x": 832,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_33": {
+   "frame": {
+    "x": 858,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_34": {
+   "frame": {
+    "x": 884,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_35": {
+   "frame": {
+    "x": 910,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_36": {
+   "frame": {
+    "x": 936,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_37": {
+   "frame": {
+    "x": 962,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_38": {
+   "frame": {
+    "x": 988,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_39": {
+   "frame": {
+    "x": 1014,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_40": {
+   "frame": {
+    "x": 1040,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_41": {
+   "frame": {
+    "x": 1066,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_42": {
+   "frame": {
+    "x": 1092,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_43": {
+   "frame": {
+    "x": 1118,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_44": {
+   "frame": {
+    "x": 1144,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_45": {
+   "frame": {
+    "x": 1170,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_46": {
+   "frame": {
+    "x": 1196,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_47": {
+   "frame": {
+    "x": 1222,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_48": {
+   "frame": {
+    "x": 1248,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_49": {
+   "frame": {
+    "x": 1274,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_50": {
+   "frame": {
+    "x": 1300,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_51": {
+   "frame": {
+    "x": 1326,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_52": {
+   "frame": {
+    "x": 1352,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_53": {
+   "frame": {
+    "x": 1378,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_54": {
+   "frame": {
+    "x": 1404,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_55": {
+   "frame": {
+    "x": 1430,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_56": {
+   "frame": {
+    "x": 1456,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_57": {
+   "frame": {
+    "x": 1482,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_58": {
+   "frame": {
+    "x": 1508,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  },
+  "fire_itch_59": {
+   "frame": {
+    "x": 1534,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 51
+   }
+  }
+ },
+ "meta": {
+  "image": "fire_itch.png",
+  "size": {
+   "w": 1560,
+   "h": 51
+  },
+  "scale": "1",
+  "app": "tools/prepare-itch-fire.py",
+  "source": "Free Pixel Effects Pack by CodeManu (itch.io)"
+ }
+}

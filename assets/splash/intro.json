@@ -1,0 +1,21 @@
+{
+  "_comment": "R1: SideQuest Studio intro. Frames converted from the Unity .meta files (top-left origin).",
+  "logo": {
+    "image": "sidequest_logo.png",
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "w": 1024,
+      "h": 383
+    }
+  },
+  "sword": {
+    "image": "sidequest_sword.png",
+    "frame": {
+      "x": 20,
+      "y": 18,
+      "w": 124,
+      "h": 375
+    }
+  }
+}

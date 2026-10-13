@@ -1,0 +1,134 @@
+{
+ "frames": {
+  "smoke_0": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 275,
+    "h": 394
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 275,
+    "h": 394
+   },
+   "sourceSize": {
+    "w": 275,
+    "h": 394
+   }
+  },
+  "smoke_1": {
+   "frame": {
+    "x": 275,
+    "y": 0,
+    "w": 275,
+    "h": 394
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 275,
+    "h": 394
+   },
+   "sourceSize": {
+    "w": 275,
+    "h": 394
+   }
+  },
+  "smoke_2": {
+   "frame": {
+    "x": 550,
+    "y": 0,
+    "w": 275,
+    "h": 394
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 275,
+    "h": 394
+   },
+   "sourceSize": {
+    "w": 275,
+    "h": 394
+   }
+  },
+  "smoke_3": {
+   "frame": {
+    "x": 825,
+    "y": 0,
+    "w": 275,
+    "h": 394
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 275,
+    "h": 394
+   },
+   "sourceSize": {
+    "w": 275,
+    "h": 394
+   }
+  },
+  "smoke_4": {
+   "frame": {
+    "x": 1100,
+    "y": 0,
+    "w": 275,
+    "h": 394
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 275,
+    "h": 394
+   },
+   "sourceSize": {
+    "w": 275,
+    "h": 394
+   }
+  },
+  "smoke_5": {
+   "frame": {
+    "x": 1375,
+    "y": 0,
+    "w": 275,
+    "h": 394
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 275,
+    "h": 394
+   },
+   "sourceSize": {
+    "w": 275,
+    "h": 394
+   }
+  }
+ },
+ "meta": {
+  "image": "smoke.png",
+  "size": {
+   "w": 1650,
+   "h": 394
+  },
+  "scale": "1",
+  "app": "tools/clean-layers.py",
+  "note": "cells aligned bottom-center"
+ }
+}

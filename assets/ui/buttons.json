@@ -1,0 +1,174 @@
+{
+ "frames": {
+  "primary_normal": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 187,
+    "h": 55
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 187,
+    "h": 55
+   },
+   "sourceSize": {
+    "w": 187,
+    "h": 55
+   }
+  },
+  "primary_hover": {
+   "frame": {
+    "x": 187,
+    "y": 0,
+    "w": 187,
+    "h": 55
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 187,
+    "h": 55
+   },
+   "sourceSize": {
+    "w": 187,
+    "h": 55
+   }
+  },
+  "primary_pressed": {
+   "frame": {
+    "x": 374,
+    "y": 0,
+    "w": 187,
+    "h": 55
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 187,
+    "h": 55
+   },
+   "sourceSize": {
+    "w": 187,
+    "h": 55
+   }
+  },
+  "primary_disabled": {
+   "frame": {
+    "x": 561,
+    "y": 0,
+    "w": 187,
+    "h": 55
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 187,
+    "h": 55
+   },
+   "sourceSize": {
+    "w": 187,
+    "h": 55
+   }
+  },
+  "secondary_normal": {
+   "frame": {
+    "x": 748,
+    "y": 0,
+    "w": 187,
+    "h": 55
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 187,
+    "h": 55
+   },
+   "sourceSize": {
+    "w": 187,
+    "h": 55
+   }
+  },
+  "secondary_hover": {
+   "frame": {
+    "x": 935,
+    "y": 0,
+    "w": 187,
+    "h": 55
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 187,
+    "h": 55
+   },
+   "sourceSize": {
+    "w": 187,
+    "h": 55
+   }
+  },
+  "secondary_pressed": {
+   "frame": {
+    "x": 1122,
+    "y": 0,
+    "w": 187,
+    "h": 55
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 187,
+    "h": 55
+   },
+   "sourceSize": {
+    "w": 187,
+    "h": 55
+   }
+  },
+  "secondary_disabled": {
+   "frame": {
+    "x": 1309,
+    "y": 0,
+    "w": 187,
+    "h": 55
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 187,
+    "h": 55
+   },
+   "sourceSize": {
+    "w": 187,
+    "h": 55
+   }
+  }
+ },
+ "meta": {
+  "image": "buttons.png",
+  "size": {
+   "w": 1496,
+   "h": 55
+  },
+  "scale": "1",
+  "app": "tools/clean-layers.py",
+  "note": "cells aligned bottom-center"
+ }
+}

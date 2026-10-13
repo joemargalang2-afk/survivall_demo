@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="SURVIVALL Project Team">
+<meta name="copyright" content="© 2026 SURVIVALL Project Team. All rights reserved.">
+<title>SURVIVALL - page not found</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #10141c; color: #f4efe2; }
+  body { display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: 'Courier New', monospace; text-align: center; }
+  main { padding: 16px; max-width: 520px; }
+  svg { width: 192px; height: 160px; image-rendering: pixelated; }
+  h1 { font-size: 28px; letter-spacing: 3px; color: #e1b947; margin: 16px 0 6px; text-shadow: 3px 3px 0 #a81f1a; }
+  p { font-size: 16px; line-height: 1.5; margin: 6px 0 20px; }
+  a { display: inline-block; padding: 12px 22px; background: #305976; color: #fff; text-decoration: none; font-weight: bold;
+      font-size: 16px; border: 3px solid #f4efe2; box-shadow: 4px 4px 0 #000; }
+  a:active { transform: translate(2px, 2px); box-shadow: 2px 2px 0 #000; }
+  footer { padding: 0 16px 16px; font-size: 12px; color: #8a8f99; }
+</style>
+</head>
+<body>
+<main>
+  <svg viewBox="0 0 24 20" shape-rendering="crispEdges" aria-hidden="true">
+    <rect x="6" y="6" width="12" height="9" fill="#c9a26b"/>
+    <rect x="4" y="5" width="16" height="2" fill="#a81f1a"/><rect x="6" y="3" width="12" height="2" fill="#a81f1a"/>
+    <rect x="8" y="1" width="8" height="2" fill="#a81f1a"/>
+    <rect x="8" y="9" width="3" height="3" fill="#7ec8e3"/><rect x="14" y="10" width="3" height="5" fill="#5b3a29"/>
+    <rect x="0" y="14" width="24" height="6" fill="#305976"/>
+    <rect x="1" y="14" width="3" height="1" fill="#7ec8e3"/><rect x="9" y="15" width="4" height="1" fill="#7ec8e3"/>
+    <rect x="17" y="14" width="3" height="1" fill="#7ec8e3"/><rect x="4" y="17" width="3" height="1" fill="#7ec8e3"/>
+    <rect x="14" y="18" width="4" height="1" fill="#7ec8e3"/>
+  </svg>
+  <h1>PAGE NOT FOUND</h1>
+  <p>This page is not here. The game is safe and dry.</p>
+  <a id="home" href="./">Back to SURVIVALL</a>
+</main>
+<footer>© 2026 SURVIVALL Project Team. All rights reserved.</footer>
+<script>
+  // A missing page can be at any depth, so point the button at the folder that holds the game.
+  var parts = location.pathname.split('/').filter(Boolean);
+  var home = /\.github\.io$/.test(location.hostname) && parts.length ? '/' + parts[0] + '/' : '/';
+  document.getElementById('home').href = home;
+</script>
+</body>
+</html>
