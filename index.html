@@ -13,10 +13,10 @@
     <link rel="manifest" href="manifest.webmanifest">
     <link rel="icon" type="image/png" href="icons/icon-192.png">
     <link rel="apple-touch-icon" href="icons/icon-192.png">
-    <style>html,body{overscroll-behavior:none;touch-action:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent;background:#000;width:100%;height:100dvh;margin:0;padding:0;overflow:hidden}#game-container{top:env(safe-area-inset-top,0px);right:env(safe-area-inset-right,0px);bottom:env(safe-area-inset-bottom,0px);left:env(safe-area-inset-left,0px);position:fixed}#game-container input{-webkit-user-select:text;user-select:text;touch-action:manipulation}#rotate-screen{z-index:20;color:#e1b947;text-align:center;background:#10141c;flex-direction:column;justify-content:center;align-items:center;gap:24px;font-family:Silkscreen,monospace;display:none;position:fixed;inset:0}#rotate-screen.show{display:flex}#rotate-screen img{width:128px;height:128px;image-rendering:pixelated}#rotate-screen .title{text-shadow:0 4px #1d1b17;font-size:24px}#rotate-screen .sub{color:#ece3c8;max-width:80vw;font-family:Pixelify Sans,monospace;font-size:16px}#install-hint{z-index:15;color:#ece3c8;background:#1d1b17;border:4px solid #a4977d;max-width:320px;padding:12px 40px 12px 14px;font:15px/1.3 Pixelify Sans,monospace;display:none;position:fixed;bottom:12px;left:12px;box-shadow:0 0 0 2px #1d1b17,4px 4px 0 2px #00000080}#install-hint.show{display:block}#install-hint b{color:#e1b947;font-family:Silkscreen,monospace;font-weight:400}#install-hint button{cursor:pointer;border-radius:0;font:13px Silkscreen,monospace}#install-hint .go{color:#2a1608;background:#e1b947;border:2px solid #1d1b17;margin-top:8px;padding:6px 10px}#install-hint .close{color:#ece3c8;background:#36425c;border:2px solid #1d1b17;width:28px;height:28px;padding:0;position:absolute;top:6px;right:6px}</style>
-  <script type="module" crossorigin src="./assets/index-BvbtI6Lq.js"></script>
+    <style>html,body{width:100%;height:100%;overscroll-behavior:none;touch-action:none;-webkit-user-select:none;-moz-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent;background:#000;height:100dvh;margin:0;padding:0;overflow:hidden}#game-container{top:env(safe-area-inset-top,0px);right:env(safe-area-inset-right,0px);bottom:env(safe-area-inset-bottom,0px);left:env(safe-area-inset-left,0px);position:fixed}#game-container input{-webkit-user-select:text;-moz-user-select:text;user-select:text;touch-action:manipulation}#rotate-screen{z-index:20;color:#e1b947;text-align:center;background:#10141c;flex-direction:column;justify-content:center;align-items:center;gap:24px;font-family:Silkscreen,monospace;display:none;position:fixed;top:0;bottom:0;left:0;right:0}#rotate-screen.show{display:flex}#rotate-screen img{width:128px;height:128px;image-rendering:pixelated}#rotate-screen .title{text-shadow:0 4px #1d1b17;font-size:24px}#rotate-screen .sub{color:#ece3c8;max-width:80vw;font-family:Pixelify Sans,monospace;font-size:16px}#install-hint{z-index:15;color:#ece3c8;background:#1d1b17;border:4px solid #a4977d;max-width:320px;padding:12px 40px 12px 14px;font:15px/1.3 Pixelify Sans,monospace;display:none;position:fixed;bottom:12px;left:12px;box-shadow:0 0 0 2px #1d1b17,4px 4px 0 2px #00000080}#install-hint.show{display:block}#install-hint b{color:#e1b947;font-family:Silkscreen,monospace;font-weight:400}#install-hint button{cursor:pointer;border-radius:0;font:13px Silkscreen,monospace}#install-hint .go{color:#2a1608;background:#e1b947;border:2px solid #1d1b17;margin-top:8px;padding:6px 10px}#install-hint .close{color:#ece3c8;background:#36425c;border:2px solid #1d1b17;width:28px;height:28px;padding:0;position:absolute;top:6px;right:6px}#boot-loading{z-index:5;color:#a4977d;text-align:center;pointer-events:none;flex-direction:column;justify-content:center;align-items:center;gap:12px;font:16px Silkscreen,monospace;display:none;position:fixed;top:0;bottom:0;left:0;right:0}#boot-loading.show{display:flex}#boot-loading .note{color:#ece3c8;max-width:80vw;font:14px Pixelify Sans,monospace}#load-error{z-index:30;background:#10141cd9;justify-content:center;align-items:center;padding:16px;display:none;position:fixed;top:0;bottom:0;left:0;right:0}#load-error.show{display:flex}#load-error .box{text-align:center;background:#000;border:4px solid #fff;max-width:480px;padding:20px 24px;box-shadow:0 0 0 4px #000}#load-error .title{color:#f28c28;margin-bottom:12px;font:16px Silkscreen,monospace}#load-error .body{color:#fff;font:16px/1.4 Pixelify Sans,monospace}#load-error .code{color:#a8a4a4;margin:12px 0 16px;font:12px Silkscreen,monospace}#load-error .retry{cursor:pointer;width:187px;height:55px;image-rendering:pixelated;color:#2a1608;background:#e1b947 url(assets/ui/buttons.png) no-repeat;border:0;font:700 20px Silkscreen,monospace}#diag{z-index:40;color:#ece3c8;font:11px monospace;position:fixed;top:6px;left:6px}#diag button{color:#2a1608;cursor:pointer;background:#e1b947;border:2px solid #1d1b17;padding:4px 8px;font:12px Silkscreen,monospace}#diag .body{background:#000000eb;border:2px solid #a4977d;width:min(92vw,640px);margin-top:6px;padding:8px}#diag pre{white-space:pre-wrap;word-break:break-all;-webkit-user-select:text;-moz-user-select:text;user-select:text;max-height:60vh;margin:0 0 8px;overflow:auto}#diag .row{gap:8px;display:flex}</style>
+  <script type="module" crossorigin src="./assets/index-jEji-r7M.js"></script>
   <link rel="modulepreload" crossorigin href="./assets/rolldown-runtime-CbXtAM7H.js">
-  <link rel="modulepreload" crossorigin href="./assets/phaser-H6HcJdkB.js">
+  <link rel="modulepreload" crossorigin href="./assets/phaser-KEvMCxbo.js">
   <link rel="stylesheet" crossorigin href="./assets/index-CvHgzE5k.css">
 </head>
 <body>
@@ -31,5 +31,50 @@
         <div><button class="go" type="button" hidden>INSTALL</button></div>
         <button class="close" type="button" aria-label="Close">X</button>
     </div>
+    <div id="boot-loading" class="show"><div>LOADING...</div><div class="note"></div></div>
+    <div id="load-error" role="alert">
+        <div class="box">
+            <div class="title">SOMETHING WENT WRONG</div>
+            <div class="body"></div>
+            <div class="code"></div>
+            <button class="retry" type="button">TRY AGAIN</button>
+        </div>
+    </div>
+    <script>
+        // Plain old JavaScript on purpose (runs in any browser). Until the game's code has started: after 20 s say
+        // that a slow connection is fine; after 120 s, or if the code fails to load, show the message (L-01).
+        (function () {
+            var boot = window.__survivallBoot = { t0: Date.now(), started: false, booted: false };
+            function show(code, title, body) {
+                if (boot.booted) return;
+                var box = document.getElementById('load-error');
+                if (!box || box.className.indexOf('show') >= 0) return;
+                box.querySelector('.title').textContent = title;
+                box.querySelector('.body').textContent = body;
+                box.querySelector('.code').textContent = 'Error ' + code;
+                box.className += ' show';
+                box.querySelector('.retry').onclick = function () { window.location.reload(); };
+            }
+            window.__survivallBootFail = show;
+            window.addEventListener('error', function (e) {
+                // before the game's own handlers are in place: its code failed to download, or this browser cannot run it
+                if (boot.started || !e) return;
+                var isScript = e.target && e.target.tagName === 'SCRIPT';
+                if (!isScript && (!e.message || /^Script error/.test(e.message))) return; // browser extensions etc.
+                show('L-01', 'SOMETHING WENT WRONG', 'The game could not finish loading. Check your internet, then tap Try again.');
+            }, true);
+            setTimeout(function () {
+                if (boot.booted) return;
+                var note = document.querySelector('#boot-loading .note');
+                if (note) note.textContent = 'Slow connection? Keep this page open. The game is still downloading.';
+            }, 20000);
+            setTimeout(function () {
+                show('L-01', 'SOMETHING WENT WRONG', 'The game could not start. Tap Try again. If it still does not work, close this page and open it again, or try Chrome (or Safari on iPhone).');
+            }, 120000);
+        })();
+    </script>
+    <script nomodule>
+        window.__survivallBootFail('L-07', 'PLEASE UPDATE YOUR BROWSER', 'This browser is too old to run the game. Please open it in Chrome (or Safari on iPhone).');
+    </script>
 </body>
 </html>
