@@ -1,0 +1,30 @@
+{
+  "placeholder": false,
+  "phase": "tutorial",
+  "title": "How to play",
+  "learningObjectives": ["Move, jump, pick things up and talk to people.", "Read the goal, the health bar and the hints."],
+  "intro": {
+    "situation": "This is a practice area. Nothing here can hurt you.",
+    "goal": "Follow the goal at the top of the screen, one step at a time."
+  },
+  "npcs": { "staff": { "name": "Store staff" } },
+  "questions": [
+    {
+      "id": "practice",
+      "objective": "Answer a practice question.",
+      "speaker": "staff",
+      "situation": "Practice question: what should you do when you hear a typhoon warning?",
+      "choices": [
+        { "text": "Get ready: prepare a go-bag and listen to advisories.", "correct": true, "feedback": "Right! In the levels, every choice teaches a safety lesson." },
+        { "text": "Ignore it. It will probably pass.", "correct": false, "feedback": "Warnings give you time to prepare. In the levels, an unsafe choice costs a little health." }
+      ],
+      "source": "General preparedness guidance."
+    }
+  ],
+  "takeaways": [
+    "The goal is at the top. Hints help if you are stuck.",
+    "Wrong choices cost a little health and explain the safe action.",
+    "After each level there is a 10-item assessment."
+  ],
+  "scoring": { "mistakePenalty": 0, "stars": { "3": 99, "2": 99 } }
+}

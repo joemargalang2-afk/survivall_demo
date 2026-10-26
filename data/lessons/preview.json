@@ -1,0 +1,16 @@
+{
+  "placeholder": false,
+  "phase": "preview",
+  "title": "Preview",
+  "learningObjectives": ["See the place where this scenario happens."],
+  "intro": {
+    "situation": "Preview: this place is being built. The lessons and dangers come in a later version.",
+    "goal": "Walk around and look. Go to the far right to finish."
+  },
+  "questions": [],
+  "takeaways": [
+    "This place is drawn after the real location in Santa Cruz.",
+    "Doors will lead inside in a later version."
+  ],
+  "scoring": { "mistakePenalty": 0, "stars": { "3": 99, "2": 99 } }
+}

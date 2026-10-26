@@ -1,6 +1,6 @@
 # SURVIVALL
 
-Version 0.9.2 "Defense Demo" (2026-10-13)
+Version 0.10.0 "Work in Progress" (2026-10-26)
 
 ## How to open it
 

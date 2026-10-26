@@ -1,0 +1,80 @@
+{
+  "placeholder": true,
+  "note": "Go-bag challenge (src/scenes/GoBag.js). One set per disaster: 12 items, the `correct` ones are the essentials to pack. `item` is a props.png frame (tools/make-scenes.py PROPS). `why` is shown after the round. PLACEHOLDER until the research team checks it against their sources.",
+  "penaltySec": 3,
+  "stars": { "three": { "found": 6, "wrong": 1 }, "two": { "found": 5, "wrong": 3 }, "one": { "found": 3 } },
+  "sets": {
+    "flood": {
+      "title": "FLOOD GO-BAG",
+      "situation": "PAGASA raised a heavy rainfall warning. The barangay may ask families to evacuate tonight.",
+      "items": [
+        { "item": "water", "name": "Drinking water", "correct": true, "why": "Floodwater is dirty. Bring clean water to drink." },
+        { "item": "flashlight", "name": "Flashlight", "correct": true, "why": "Power often goes out during floods." },
+        { "item": "radio", "name": "Battery radio", "correct": true, "why": "Listen to warnings even without power or signal." },
+        { "item": "firstaid", "name": "First aid kit", "correct": true, "why": "Treat small cuts right away so they don't get infected." },
+        { "item": "documents", "name": "Documents in plastic", "correct": true, "why": "IDs and papers are needed for relief and must stay dry." },
+        { "item": "medicine", "name": "Medicine", "correct": true, "why": "Bring the family's daily medicine for at least 3 days." },
+        { "item": "console", "name": "Game console", "correct": false, "why": "Heavy and not needed to survive." },
+        { "item": "balloons", "name": "Balloons", "correct": false, "why": "Not useful in an evacuation." },
+        { "item": "perfume", "name": "Perfume", "correct": false, "why": "Not an essential. Save space." },
+        { "item": "teddy", "name": "Big stuffed toy", "correct": false, "why": "Takes space that essentials need." },
+        { "item": "books", "name": "School books", "correct": false, "why": "Heavy, and they get wet. Keep only documents." },
+        { "item": "candles", "name": "Candles", "correct": false, "why": "Fire risk in a crowded evacuation center. Use a flashlight." }
+      ]
+    },
+    "fire": {
+      "title": "FIRE GO-BAG",
+      "situation": "Fires happen often in crowded markets and houses. Keep a small bag ready by the door.",
+      "items": [
+        { "item": "flashlight", "name": "Flashlight", "correct": true, "why": "Smoke makes it dark. Light helps you find the exit." },
+        { "item": "mask", "name": "Face mask", "correct": true, "why": "Helps a little against smoke and dust after the fire." },
+        { "item": "whistle", "name": "Whistle", "correct": true, "why": "Call for help without breathing in smoke by shouting." },
+        { "item": "firstaid", "name": "First aid kit", "correct": true, "why": "For small burns and cuts." },
+        { "item": "documents", "name": "Documents in plastic", "correct": true, "why": "Papers burn. Keep copies in the go-bag." },
+        { "item": "water", "name": "Drinking water", "correct": true, "why": "Smoke dries your throat. Bring water." },
+        { "item": "perfume", "name": "Perfume", "correct": false, "why": "Flammable. Never near a fire." },
+        { "item": "candles", "name": "Candles", "correct": false, "why": "An open flame can start another fire." },
+        { "item": "console", "name": "Game console", "correct": false, "why": "Leave things behind. Your life comes first." },
+        { "item": "books", "name": "School books", "correct": false, "why": "Heavy and not needed." },
+        { "item": "balloons", "name": "Balloons", "correct": false, "why": "Not useful in an emergency." },
+        { "item": "teddy", "name": "Big stuffed toy", "correct": false, "why": "Takes space that essentials need." }
+      ]
+    },
+    "earthquake": {
+      "title": "EARTHQUAKE GO-BAG",
+      "situation": "Earthquakes come without warning. Your bag must be ready before the shaking starts.",
+      "items": [
+        { "item": "whistle", "name": "Whistle", "correct": true, "why": "If you are trapped, a whistle is heard farther than a voice." },
+        { "item": "flashlight", "name": "Flashlight", "correct": true, "why": "Power may be cut after a strong quake." },
+        { "item": "water", "name": "Drinking water", "correct": true, "why": "Water lines can break. Bring water for 3 days." },
+        { "item": "cannedfood", "name": "Canned food", "correct": true, "why": "Food that keeps without cooking or a fridge." },
+        { "item": "firstaid", "name": "First aid kit", "correct": true, "why": "For cuts from broken glass and falling things." },
+        { "item": "helmet", "name": "Hard hat", "correct": true, "why": "Protects your head from falling debris and aftershocks." },
+        { "item": "console", "name": "Game console", "correct": false, "why": "Not needed to survive." },
+        { "item": "perfume", "name": "Glass perfume", "correct": false, "why": "Glass can break and cut you." },
+        { "item": "candles", "name": "Candles", "correct": false, "why": "Gas may leak after a quake. No open flames." },
+        { "item": "balloons", "name": "Balloons", "correct": false, "why": "Not useful in an emergency." },
+        { "item": "teddy", "name": "Big stuffed toy", "correct": false, "why": "Takes space that essentials need." },
+        { "item": "books", "name": "School books", "correct": false, "why": "Heavy. Keep the bag light so you can move fast." }
+      ]
+    },
+    "eruption": {
+      "title": "ASHFALL GO-BAG",
+      "situation": "Taal is erupting and ash is falling on Santa Cruz. Pack what protects you from the ash.",
+      "items": [
+        { "item": "mask", "name": "N95 face mask", "correct": true, "why": "Ash hurts your lungs. A good mask filters it." },
+        { "item": "goggles", "name": "Goggles", "correct": true, "why": "Ash scratches your eyes. Goggles keep it out." },
+        { "item": "water", "name": "Drinking water", "correct": true, "why": "Ash can dirty the water supply." },
+        { "item": "radio", "name": "Battery radio", "correct": true, "why": "Listen for PHIVOLCS updates and evacuation orders." },
+        { "item": "towel", "name": "Damp cloth or towel", "correct": true, "why": "Cover your nose and mouth if you have no mask." },
+        { "item": "medicine", "name": "Medicine", "correct": true, "why": "Ash can make asthma worse. Bring inhalers and medicine." },
+        { "item": "console", "name": "Game console", "correct": false, "why": "Not needed to survive." },
+        { "item": "perfume", "name": "Perfume", "correct": false, "why": "Not an essential. Save space." },
+        { "item": "balloons", "name": "Balloons", "correct": false, "why": "Not useful in an emergency." },
+        { "item": "teddy", "name": "Big stuffed toy", "correct": false, "why": "Takes space that essentials need." },
+        { "item": "books", "name": "School books", "correct": false, "why": "Heavy and not needed." },
+        { "item": "candles", "name": "Candles", "correct": false, "why": "A flashlight is safer." }
+      ]
+    }
+  }
+}

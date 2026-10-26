@@ -11,6 +11,12 @@
     "girl",
     "boy"
   ],
+  "outfits": [
+    "rain",
+    "mall",
+    "school",
+    "market"
+  ],
   "animations": {
     "idle": {
       "row": 0,

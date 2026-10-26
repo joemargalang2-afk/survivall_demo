@@ -1,0 +1,18 @@
+{
+  "placeholder": true,
+  "phase": "after",
+  "title": "AFTER the flood",
+  "items": [
+    { "type": "mc", "question": "What should you wear before cleaning mud after a flood?", "choices": ["Slippers", "Boots and gloves", "Nothing special", "A raincoat only"], "answer": 1 },
+    { "type": "mc", "question": "What should you do before going back inside your house?", "choices": ["Check for hazards first", "Turn on all the lights", "Run inside quickly", "Light a candle"], "answer": 0 },
+    { "type": "mc", "question": "Who should you report flood damage to?", "choices": ["Nobody", "Your classmates", "The barangay officials", "Social media only"], "answer": 2 },
+    { "type": "mc", "question": "An elderly neighbor needs help. What is the best action?", "choices": ["Ignore them", "Help them get to the relief area", "Tell them to wait", "Take their things"], "answer": 1 },
+    { "type": "mc", "question": "What should you do with food that touched floodwater?", "choices": ["Wash and eat it", "Throw it away", "Cook it longer", "Give it to pets"], "answer": 1 },
+    { "type": "tf", "question": "Puddles left after a flood can carry germs and diseases.", "answer": true },
+    { "type": "tf", "question": "It is safe to touch fallen wires once the water goes down.", "answer": false },
+    { "type": "tf", "question": "Cleaning up debris helps prevent injuries and disease.", "answer": true },
+    { "type": "tf", "question": "You should walk barefoot in the mud after a flood.", "answer": false },
+    { "type": "tf", "question": "Reporting damage helps the barangay send help where it is needed.", "answer": true }
+  ],
+  "source": "PLACEHOLDER: general flood-safety guidance. The research team will supply the real items and references."
+}

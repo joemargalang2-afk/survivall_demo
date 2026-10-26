@@ -1,0 +1,8 @@
+{
+  "pin": "1896",
+  "allowRetake": false,
+  "hints": {
+    "enabled": true,
+    "delaysSec": [45, 90, 150]
+  }
+}

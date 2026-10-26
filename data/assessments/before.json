@@ -1,0 +1,18 @@
+{
+  "placeholder": true,
+  "phase": "before",
+  "title": "BEFORE the flood",
+  "items": [
+    { "type": "mc", "question": "Which item should be packed FIRST in a go-bag?", "choices": ["Game console", "Drinking water", "Scented candles", "Party balloons"], "answer": 1 },
+    { "type": "mc", "question": "When should your family leave for the evacuation center?", "choices": ["When the water reaches the door", "After the storm is over", "When officials give the order", "Only at night"], "answer": 2 },
+    { "type": "mc", "question": "Which is the safest light to use during a power outage?", "choices": ["Candles", "Flashlight", "Kerosene lamp", "Matches"], "answer": 1 },
+    { "type": "mc", "question": "Where should important documents be kept in a go-bag?", "choices": ["In a waterproof bag", "In your pocket", "Loose in the bag", "At home on the table"], "answer": 0 },
+    { "type": "mc", "question": "Which route is safest when evacuating from a flood?", "choices": ["Along the riverbank", "Through low streets", "Across a flooded bridge", "Up the road to higher ground"], "answer": 3 },
+    { "type": "tf", "question": "A battery radio helps you hear official advisories when the power is out.", "answer": true },
+    { "type": "tf", "question": "You should wait until the water is inside your house before you evacuate.", "answer": false },
+    { "type": "tf", "question": "A go-bag should include the medicines your family needs every day.", "answer": true },
+    { "type": "tf", "question": "Party balloons are an essential go-bag item.", "answer": false },
+    { "type": "tf", "question": "Your family should know the evacuation route before a storm comes.", "answer": true }
+  ],
+  "source": "PLACEHOLDER: general flood-safety guidance. The research team will supply the real items and references."
+}

@@ -1,0 +1,18 @@
+{
+  "placeholder": true,
+  "phase": "during",
+  "title": "DURING the flood",
+  "items": [
+    { "type": "mc", "question": "Floodwater is rising around you. What should you do first?", "choices": ["Take photos", "Go to higher ground", "Swim across the street", "Wait in the car"], "answer": 1 },
+    { "type": "mc", "question": "You see a fallen electric wire in the water. What do you do?", "choices": ["Step over it quickly", "Move it with a stick", "Stay far away and go around", "Touch it to check"], "answer": 2 },
+    { "type": "mc", "question": "How do you go up to a higher floor during a flood?", "choices": ["Use the stairs", "Use the elevator", "Climb the outside wall", "Stay on the ground floor"], "answer": 0 },
+    { "type": "mc", "question": "Why is walking through floodwater dangerous?", "choices": ["It is always cold", "It can hide open manholes and debris", "It makes your clothes wet", "It is never dangerous"], "answer": 1 },
+    { "type": "mc", "question": "Your younger sibling is with you. What should you do?", "choices": ["Leave them and run", "Tell them to swim", "Keep them with you and move together", "Let them go first alone"], "answer": 2 },
+    { "type": "tf", "question": "Fast-moving water can knock a person down even when it is shallow.", "answer": true },
+    { "type": "tf", "question": "It is safe to play in floodwater.", "answer": false },
+    { "type": "tf", "question": "You should stay away from electric posts and wires during a flood.", "answer": true },
+    { "type": "tf", "question": "Elevators are the safest way to go up during a flood.", "answer": false },
+    { "type": "tf", "question": "Listening to official advisories helps you know what to do next.", "answer": true }
+  ],
+  "source": "PLACEHOLDER: general flood-safety guidance. The research team will supply the real items and references."
+}
